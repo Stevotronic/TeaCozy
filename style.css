@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica', sans-serif;
+    color: seashell;
+    background-color: black;
+    font-size: 22px; 
+}
+
+
+h2, h4 {
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    z-index: 1;
+}
+
+main {
+
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: seashell;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+#logo {
+    height: 50px;
+}
+
+#mission {
+    position: relative;
+    top: 69px;
+
+    background-image: url(./images/img-mission-background.jpg);
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+
+
+.mission-txt {
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 100%;
+}
+
+#selection {
+    margin: 50px auto;
+    padding-top: 50px;
+    
+}
+
+.product-container {
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1000px;
+}
+
+.product img {
+    width: 300px;
+    height: 200px;
+
+}
+
+.product {
+    margin: 10px;
+}
+
+#locations {
+    background-image: url(./images/img-locations-background.jpg);
+    max-width: 1200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    min-height: 500px;
+}
+
+#locations h2 {
+    padding-top: 50px;
+}
+
+.locations-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.location {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 15px 20px;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact {
+    height: 200px;
+    text-align: center;
+    line-height: 2;
+}
+
+.contact a {
+    text-decoration: none;
+    color: seashell;
+}
+
+footer h5 {
+    padding: 20px;
+}
