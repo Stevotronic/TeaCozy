@@ -104,7 +104,7 @@ nav li a {
     max-width: 1200px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: 80% 80%;
     margin: 0 auto;
     min-height: 500px;
 }
